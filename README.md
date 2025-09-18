@@ -47,7 +47,7 @@ Aunque existen herramientas tradicionales como `adduser`, `useradd`, FreeIPA o s
 
 3. Crea un entorno virtual (opcional pero recomendado):
 
-    - python -m venv venv
+    - python3 -m venv venv
     - source venv/bin/activate  # Linux/macOS
 
 4. Instala dependencias:
