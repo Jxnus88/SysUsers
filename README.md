@@ -42,14 +42,13 @@ Aunque existen herramientas tradicionales como `adduser`, `useradd`, FreeIPA o s
 
 2. Clona el repositorio:
 
-    git clone https://github.com/Jxnus88/sysusers.git
-    cd sysusers
+    - git clone https://github.com/Jxnus88/sysusers.git
+    - cd sysusers
 
 3. Crea un entorno virtual (opcional pero recomendado):
 
-    python -m venv venv
-    source venv/bin/activate  # Linux/macOS
-    venv\Scripts\activate     # Windows
+    - python -m venv venv
+    - source venv/bin/activate  # Linux/macOS
 
 4. Instala dependencias:
 
