@@ -1,0 +1,10 @@
+username,temp_pass,shell,home,groups
+jdoe,Segura123,/bin/bash,/home/jdoe,staff,dev
+,NoPass123,/bin/bash,/home/missing_username,developers
+amaria,,/bin/zsh,/home/amaria,admins
+carlos,Carl0s123,/bin/fakeshell,/home/carlos,devops
+lucia,Lucia321,/bin/bash,,fakegroup
+validuser1,User1Pass,/bin/zsh,/home/valid1,staff
+invalidgroupuser,Test1234,/bin/bash,/home/invalid,admins,unknown_group
+missingpass,,/bin/bash,/home/nopass,staff
+validuser2,SuperSecure!,/bin/bash,,dev

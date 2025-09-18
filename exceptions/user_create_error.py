@@ -1,0 +1,4 @@
+
+
+class UserCreationError(RuntimeError):
+    pass

@@ -1,0 +1,4 @@
+# Dependencias principales
+colorama==0.4.6           # Colores en la terminal
+pyfiglet==0.8.post1       # Banners ASCII
+setuptools==67.6.1        # Herramientas para empaquetado, incluye pkg_resources

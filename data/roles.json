@@ -1,0 +1,21 @@
+{
+  "admin": {
+    "default_shell": "/bin/bash",
+    "groups": [
+      "sudo",
+      "adm"
+    ]
+  },
+  "developer": {
+    "default_shell": "/bin/bash",
+    "groups": [
+      "developers"
+    ]
+  },
+  "guest": {
+    "default_shell": "/usr/sbin/nologin",
+    "groups": [
+      "guests"
+    ]
+  }
+}

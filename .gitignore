@@ -1,0 +1,67 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+env/
+.venv/
+
+# Distribuciones y paquetes
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Archivos de configuración de IDEs populares
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Archivos de sistema
+.DS_Store
+Thumbs.db
+
+# Logs y archivos temporales
+*.log
+*.tmp
+*.temp
+
+# Configuración y datos específicos de usuario
+sysusers/.config/
+
+# Archivos de base de datos o cachés (si los usas)
+*.sqlite3
+*.db
+*.cache
+
+# Ignorar resultados de tests o cobertura
+.coverage
+htmlcov/
+.tox/
+.nox/
+
+# Ignorar archivos de cobertura y reportes de test
+.pytest_cache/
+
+# Ignorar archivos de migración (si usas Django o similar)
+migrations/
+
+# Ignorar archivos generados por setuptools
+pip-wheel-metadata/
+
+# Ignorar archivos generados por Docker (si usas)
+docker-compose.override.yml
+
+# Ignorar archivos de configuración local o secretos
+.env
+.env.local
+
+# Ignorar archivos de sistema o editor específicos adicionales
+*.swp
+*~
+
+# Logs específicos que puedas generar
+logs/
