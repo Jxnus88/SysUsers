@@ -61,7 +61,7 @@ Aunque existen herramientas tradicionales como `adduser`, `useradd`, FreeIPA o s
 
 En distribuciones basadas en Debian como Ubuntu, Linux Mint o servidores con instalaciones minimal, es posible que aparezca un error al intentar crear el entorno virtual con:
 
-    - python3 -m venv venv
+    python3 -m venv venv
 
 Esto ocurre porque el paquete python3.X-venv no está instalado por defecto.
 
