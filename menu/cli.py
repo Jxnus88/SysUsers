@@ -153,7 +153,6 @@ def show_manual():
 def main(argv=None):
 
     args = parse_args(argv)
-    print(f"[DEBUG] Comando recibido: {args.command}")
     
     user_service = UserService(UserManager())
     role_service = RoleService()
