@@ -7,8 +7,8 @@ from menu.submenu_roles import add_role_menu, modify_role_menu
 def run_roles_management_menu():
     while True:
         print(f"\n{Fore.CYAN}=== Gestión de Roles ==={Style.RESET_ALL}\n")
-        print(f"  {Fore.YELLOW}1.{Style.RESET_ALL} Añadir nuevo rol predefinido (En desarrollo)")
-        print(f"  {Fore.YELLOW}2.{Style.RESET_ALL} Modificar rol existente (En desarrollo)")
+        print(f"  {Fore.YELLOW}1.{Style.RESET_ALL} Añadir nuevo rol predefinido")
+        print(f"  {Fore.YELLOW}2.{Style.RESET_ALL} Modificar rol existente")
         print(f"  {Fore.YELLOW}3.{Style.RESET_ALL} Ver lista de roles")
         print(f"  {Fore.YELLOW}0.{Style.RESET_ALL} Volver al menú principal\n")
 

@@ -18,8 +18,8 @@
 - ✅ Código limpio, modular y orientado a objetos (ideal para aprender y extender)
 - ✅ CLI avanzada (`sysusers.cli`)
 - ✅ Gestión de roles predefinidos:
-  - Añadir nuevo rol predefinido (En desarrollo)
-  - Modificar rol existente (En desarrollo)
+  - Añadir nuevo rol predefinido
+  - Modificar rol existente
   - Ver lista de roles
 
 ---
