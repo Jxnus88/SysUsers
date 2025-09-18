@@ -47,14 +47,38 @@ Aunque existen herramientas tradicionales como `adduser`, `useradd`, FreeIPA o s
 
 3. Crea un entorno virtual (opcional pero recomendado):
 
-    - python3 -m venv venv
+    - python -m venv venv
     - source venv/bin/activate  # Linux/macOS
+    
 
 4. Instala dependencias:
 
-    pip install -r requirements.txt
+    - pip install -r requirements.txt
 
 ---
+
+## ⚠️ Nota para usuarios de Debian/Ubuntu/Linux Mint (versiones minimal)
+
+En distribuciones basadas en Debian como Ubuntu, Linux Mint o servidores con instalaciones minimal, es posible que aparezca un error al intentar crear el entorno virtual con:
+
+    - python3 -m venv venv
+
+Esto ocurre porque el paquete python3.X-venv no está instalado por defecto.
+
+## ✅ Solución rápida
+
+1. Verifica tu versión de Python:
+
+    - python3 --version
+
+2. Instala el paquete venv correspondiente (sustituye 3.12 si es necesario):
+
+    - sudo apt install python3.12-venv
+
+
+3. Crea el entorno virtual normalmente:
+
+    - python3 -m venv venv
 
 ## ▶️ Inicio rápido
 

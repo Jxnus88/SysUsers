@@ -29,9 +29,11 @@ class RoleManager:
         self.user_roles_path.parent.mkdir(parents=True, exist_ok=True)
         
         try:
-            with pkg_resources.path("sysusers.data", "roles.json") as template_path:
-                shutil.copy(template_path, self.user_roles_path)
-                #print(f"[✓] roles.json copiedo en {self.user_roles_path}")
+            base_path = Path(__file__).parent.parent  # Ajusta si la estructura es diferente
+            template_path = base_path / "data" / "roles.json"
+            if not template_path.exists():
+                raise FileNotFoundError(f"No se encontró el archivo plantilla en {template_path}")
+            shutil.copy(template_path, self.user_roles_path)
         except Exception as e:
             raise RuntimeError(f"Error al copiar roles.json template: {e}")
 
