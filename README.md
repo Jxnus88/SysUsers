@@ -67,11 +67,11 @@ SysUsers es una herramienta de línea de comandos para la gestión de usuarios y
 
 Ejemplo para crear un usuario:
 
-sudo python sysusers.py create alice --temp-pass "Temporal123" --shell "/bin/zsh" --groups "staff,devs"
+`create alice --temp-pass "Temporal123" --shell /bin/zsh --groups staff,devs`
 
 Ejemplo para crear varios grupos:
 
-sudo python sysusers.py create-groups devs testers admins
+`create-groups devs testers,admins`
 
 ---
 
@@ -87,7 +87,7 @@ sudo python sysusers.py create-groups devs testers admins
    python3 -m venv venv  
    source venv/bin/activate
 
-3. Instala las dependencias (si las hubiera):
+3. Instala las dependencias:
 
    pip install -r requirements.txt
 
